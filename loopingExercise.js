@@ -1,9 +1,9 @@
 console.log("<======================================>");
 console.log("While Looping");
 // 1. While Looping
-var angka = 1;
+var angka = 0;
 while (angka < 20) {
-  angka++;
+  angka = angka + 2;
   console.log(angka + " - I love coding");
 }
 
@@ -21,9 +21,9 @@ while (angka < 20) {
 // 18 - I love coding
 // 20 - I love coding
 console.log("<======================================>");
-var angka2 = 21;
+var angka2 = 22;
 while (angka2 > 2) {
-  angka2--;
+  angka2 = angka2 - 2;
   console.log(angka2 + " - I will become fullstack developer");
 }
 // LOOPING KEDUA
@@ -37,3 +37,9 @@ while (angka2 > 2) {
 // 6 - I will become fullstack developer
 // 4 - I will become fullstack developer
 // 2 - I will become fullstack developer
+console.log("<======================================>");
+var pertama = 0;
+while (pertama < 20) {
+  pertama = pertama + 2;
+  console.log(pertama + " - I love coding");
+}
