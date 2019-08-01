@@ -1,11 +1,11 @@
-// console.log("<======================================>");
-// console.log("While Looping");
-// // 1. While Looping
-// var angka = 0;
-// while (angka < 20) {
-//   angka = angka + 2;
-//   console.log(angka + " - I love coding");
-// }
+console.log("<======================================>");
+console.log("While Looping");
+// 1. While Looping
+var angka = 0;
+while (angka < 20) {
+  angka = angka + 2;
+  console.log(angka + " - I love coding");
+}
 
 // // OUTPUT
 
@@ -20,12 +20,12 @@
 // // 16 - I love coding
 // // 18 - I love coding
 // // 20 - I love coding
-// console.log("<======================================>");
-// var angka2 = 22;
-// while (angka2 > 2) {
-//   angka2 = angka2 - 2;
-//   console.log(angka2 + " - I will become fullstack developer");
-// }
+console.log("<======================================>");
+var angka2 = 22;
+while (angka2 > 2) {
+  angka2 = angka2 - 2;
+  console.log(angka2 + " - I will become fullstack developer");
+}
 // // LOOPING KEDUA
 // // 20 - I will become fullstack developer
 // // 18 - I will become fullstack developer
@@ -37,20 +37,21 @@
 // // 6 - I will become fullstack developer
 // // 4 - I will become fullstack developer
 // // 2 - I will become fullstack developer
-// console.log("<======================================>");
 
-// console.log("2. For Looping");
-// // 2. For Looping
-// console.log("LOOPING PERTAMA");
-// for (var pertama1 = 1; pertama1 <= 20; pertama1++) {
-//   console.log(pertama1 + " - I love coding");
-// }
+console.log("<======================================>");
 
-// console.log("<======================================>");
-// console.log("LOOPING KEDUA");
-// for (var pertama2 = 20; pertama2 > 0; pertama2--) {
-//   console.log(pertama2 + " - I will become full stack developer");
-// }
+console.log("2. For Looping");
+// 2. For Looping
+console.log("LOOPING PERTAMA");
+for (var pertama1 = 1; pertama1 <= 20; pertama1++) {
+  console.log(pertama1 + " - I love coding");
+}
+
+console.log("<======================================>");
+console.log("LOOPING KEDUA");
+for (var pertama2 = 20; pertama2 > 0; pertama2--) {
+  console.log(pertama2 + " - I will become full stack developer");
+}
 // // LOOPING PERTAMA
 // // 1 - I love coding
 // // 2 - I love coding
@@ -93,28 +94,28 @@
 // // 3 - I will become fullstack developer
 // // 2 - I will become fullstack developer
 // // 1 - I will become fullstack developer
-// console.log("<======================================>");
-// console.log("3. Angka Ganjil dan Genap");
+console.log("<======================================>");
+console.log("3. Angka Ganjil dan Genap");
 
-// for (var loop1 = 1; loop1 <= 100; loop1++) {
-//   if (loop1 % 2 == 0) {
-//     console.log("GENAP");
-//   } else {
-//     console.log("GANJIL");
-//   }
-// }
+for (var loop1 = 1; loop1 <= 100; loop1++) {
+  if (loop1 % 2 == 0) {
+    console.log("GENAP");
+  } else {
+    console.log("GANJIL");
+  }
+}
 
 // additional input
-// var input = 0;
-// if (input % 2 === 0) {
-//   console.log(input + " adalah angka GENAP");
-// } else if (input % 2 !== 0) {
-//   console.log(input + " adalah angka GANJIL");
-// } else if (input === 1) {
-//   console.log(input + " adalah angka GANJIL");
-// } else if (input === 0) {
-//   console.log("???");
-// }
+var input = 0;
+if (input % 2 === 0) {
+  console.log(input + " adalah angka GENAP");
+} else if (input % 2 !== 0) {
+  console.log(input + " adalah angka GANJIL");
+} else if (input === 1) {
+  console.log(input + " adalah angka GANJIL");
+} else if (input === 0) {
+  console.log("???");
+}
 
 for (var tambah2 = 1; tambah2 <= 100; tambah2 = tambah2 + 2) {
   if (tambah2 % 3 === 0) {
