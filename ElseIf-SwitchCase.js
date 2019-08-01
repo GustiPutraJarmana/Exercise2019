@@ -106,4 +106,71 @@ switch (true) {
   }
 }
 
-// PERUBAHAN ELSE IF CONDITION ----> SWITCH - CASE CONDITION
+// // PERUBAHAN ELSE IF CONDITION ----> SWITCH - CASE CONDITION
+
+// // Another Switch-Case
+// var tanggal = 32; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+// var bulan = 6; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+// var tahun = 2201; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+
+// switch (true) {
+switch (true) {
+  case tanggal > 0 && tanggal < 31:
+    break;
+  default:
+    tanggal = "tanggal invalid";
+}
+switch (bulan) {
+  case 1:
+    bulan = "Januari";
+    break;
+  case 2:
+    bulan = "Februari";
+    break;
+  case 3:
+    bulan = "Maret";
+    break;
+  case 4:
+    bulan = "April";
+    break;
+  case 5:
+    bulan = "Mei";
+    break;
+  case 6:
+    bulan = "Juni";
+    break;
+  case 7:
+    bulan = "Juli";
+    break;
+  case 8:
+    bulan = "Agustus";
+    break;
+  case 9:
+    bulan = "September";
+    break;
+  case 10:
+    bulan = "Oktober";
+    break;
+  case 11:
+    bulan = "November";
+    break;
+  case 12:
+    bulan = "Desember";
+    break;
+  default:
+    bulan = "Bulan Invalid";
+}
+switch (true) {
+  case tahun >= 1900 && tahun <= 2200:
+    break;
+  default:
+    tahun = "Tahun Invalid";
+}
+
+console.log(tanggal + " " + bulan + " " + tahun);
+
+var jumlahItem = 4;
+
+if (jumlahItem > 0) {
+  console.log(jumlahItem + " sandal");
+}
